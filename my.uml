@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_QKwPsPOaEea2psnAyvPYVA" name="NewModel">
+  <packagedElement xmi:type="uml:Actor" xmi:id="_XfawIPOaEea2psnAyvPYVA" name="Attore"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_cxqF0POaEea2psnAyvPYVA" memberEnd="_cxyBoPOaEea2psnAyvPYVA _cxyosPOaEea2psnAyvPYVA">
+    <ownedEnd xmi:id="_cxyBoPOaEea2psnAyvPYVA" type="_XfawIPOaEea2psnAyvPYVA" association="_cxqF0POaEea2psnAyvPYVA"/>
+    <ownedEnd xmi:id="_cxyosPOaEea2psnAyvPYVA" association="_cxqF0POaEea2psnAyvPYVA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_m-Ig4POaEea2psnAyvPYVA" name="Start">
+    <include xmi:id="_FTJXgPObEea2psnAyvPYVA" addition="_C3Zt0PObEea2psnAyvPYVA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_nkwcAPOaEea2psnAyvPYVA" name="Highscore"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_pCY3oPOaEea2psnAyvPYVA" name="Help"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_pp3uYPOaEea2psnAyvPYVA" name="Exit"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_vcU1MPOaEea2psnAyvPYVA" memberEnd="_vcU1MfOaEea2psnAyvPYVA _vcU1MvOaEea2psnAyvPYVA">
+    <ownedEnd xmi:id="_vcU1MfOaEea2psnAyvPYVA" type="_XfawIPOaEea2psnAyvPYVA" association="_vcU1MPOaEea2psnAyvPYVA"/>
+    <ownedEnd xmi:id="_vcU1MvOaEea2psnAyvPYVA" type="_m-Ig4POaEea2psnAyvPYVA" association="_vcU1MPOaEea2psnAyvPYVA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_wMdRoPOaEea2psnAyvPYVA" name="A_attore_useCase2" memberEnd="_wMdRofOaEea2psnAyvPYVA _wMd4sPOaEea2psnAyvPYVA">
+    <ownedEnd xmi:id="_wMdRofOaEea2psnAyvPYVA" type="_XfawIPOaEea2psnAyvPYVA" association="_wMdRoPOaEea2psnAyvPYVA"/>
+    <ownedEnd xmi:id="_wMd4sPOaEea2psnAyvPYVA" type="_nkwcAPOaEea2psnAyvPYVA" association="_wMdRoPOaEea2psnAyvPYVA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_wkf-MPOaEea2psnAyvPYVA" memberEnd="_wkf-MfOaEea2psnAyvPYVA _wkf-MvOaEea2psnAyvPYVA">
+    <ownedEnd xmi:id="_wkf-MfOaEea2psnAyvPYVA" type="_XfawIPOaEea2psnAyvPYVA" association="_wkf-MPOaEea2psnAyvPYVA"/>
+    <ownedEnd xmi:id="_wkf-MvOaEea2psnAyvPYVA" type="_pCY3oPOaEea2psnAyvPYVA" association="_wkf-MPOaEea2psnAyvPYVA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_xlPCcPOaEea2psnAyvPYVA" memberEnd="_xlPCcfOaEea2psnAyvPYVA _xlPCcvOaEea2psnAyvPYVA">
+    <ownedEnd xmi:id="_xlPCcfOaEea2psnAyvPYVA" type="_XfawIPOaEea2psnAyvPYVA" association="_xlPCcPOaEea2psnAyvPYVA"/>
+    <ownedEnd xmi:id="_xlPCcvOaEea2psnAyvPYVA" type="_pp3uYPOaEea2psnAyvPYVA" association="_xlPCcPOaEea2psnAyvPYVA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_C3Zt0PObEea2psnAyvPYVA" name="Play Game"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_I281cPObEea2psnAyvPYVA" name="Move tank">
+    <extend xmi:id="_CClwQPOcEea2psnAyvPYVA" extendedCase="_C3Zt0PObEea2psnAyvPYVA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_J1QQwPObEea2psnAyvPYVA" name="Fire">
+    <extend xmi:id="_-Weq4PObEea2psnAyvPYVA" extendedCase="_C3Zt0PObEea2psnAyvPYVA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_KEtCAPObEea2psnAyvPYVA" name="Pause">
+    <extend xmi:id="_ArmvMPOcEea2psnAyvPYVA" extendedCase="_C3Zt0PObEea2psnAyvPYVA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_yWIpAPOcEea2psnAyvPYVA" name="Scenario_0">
+    <ownedAttribute xmi:id="_4UbzcPOcEea2psnAyvPYVA" name="Class1" type="_4UalUPOcEea2psnAyvPYVA"/>
+    <lifeline xmi:id="_4UbMYPOcEea2psnAyvPYVA" name="Class1" represents="_4UbzcPOcEea2psnAyvPYVA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_4UalUPOcEea2psnAyvPYVA" name="Class1"/>
+</uml:Model>
